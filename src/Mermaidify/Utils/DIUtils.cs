@@ -1,8 +1,11 @@
+using System.Diagnostics.CodeAnalysis;
+using Mermaidify.Extensions;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Mermaidify.Utils;
 
+[ExcludeFromCodeCoverage]
 static class DIUtils
 {
   public static IServiceProvider GetServiceProvider(string env = "Production")
@@ -14,7 +17,7 @@ static class DIUtils
       .Build();
 
     var services = new ServiceCollection()
-      .AddSingleton(config)
+      .AddMermaidify(config)
       .AddLogging();
 
     return services.BuildServiceProvider();
