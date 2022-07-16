@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevConsole", "DevConsole\De
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{9A80F57C-8E78-404C-ADEB-5703DAAC512A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{0608AF93-4B8C-45C5-8CCD-0774C44C7A52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mermaidify.T1.Tests", "..\tests\Mermaidify.T1.Tests\Mermaidify.T1.Tests.csproj", "{9C26C9B8-8F72-4BE2-8CE7-C04B3FBF0932}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,12 +27,17 @@ Global
 		{6F4D8B61-EA08-4244-B8D2-8EAB8639887F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F4D8B61-EA08-4244-B8D2-8EAB8639887F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F4D8B61-EA08-4244-B8D2-8EAB8639887F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C26C9B8-8F72-4BE2-8CE7-C04B3FBF0932}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C26C9B8-8F72-4BE2-8CE7-C04B3FBF0932}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C26C9B8-8F72-4BE2-8CE7-C04B3FBF0932}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C26C9B8-8F72-4BE2-8CE7-C04B3FBF0932}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{E9BB53F4-5E0A-418C-A97C-91AA195E0CD1} = {9A80F57C-8E78-404C-ADEB-5703DAAC512A}
+		{9C26C9B8-8F72-4BE2-8CE7-C04B3FBF0932} = {0608AF93-4B8C-45C5-8CCD-0774C44C7A52}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B19D95D7-6F8F-4CDF-88F8-E7EFD9905AC4}
