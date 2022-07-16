@@ -13,7 +13,7 @@ static class DIUtils
     var config = new ConfigurationBuilder()
       .AddJsonFile("Mermaidify.json", true)
       .AddJsonFile($"Mermaidify.{env}.json", true)
-      .AddJsonFile("Tracker.machine.json", true)
+      .AddJsonFile("Mermaidify.machine.json", true)
       .Build();
 
     var services = new ServiceCollection()
